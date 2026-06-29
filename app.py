@@ -130,7 +130,7 @@ def guest_login():
         enc_data = encrypt(req_msg.SerializeToString())
         headers = {
             "X-GA": "v1 1", 
-            "ReleaseVersion": "OB53", 
+            "ReleaseVersion": "OB54", 
             "Content-Type": "application/octet-stream", 
             "User-Agent": USERAGENT
         }
